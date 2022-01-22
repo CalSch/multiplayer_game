@@ -28,7 +28,6 @@ class Player:
             self.pos = addvec(self.pos , rl.Vector2(-player_speed, 0))
         if rl.is_key_down(rl.KEY_S) or rl.is_key_down(rl.KEY_DOWN):
             self.pos = addvec(self.pos , rl.Vector2(0, player_speed))
-
         
         self.old_pos=self.pos
             

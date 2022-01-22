@@ -1,2 +1,4 @@
 raylib-2.0.0-Linux-amd64
 __pycache__
+client/example.py
+server/example.py
